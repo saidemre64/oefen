@@ -1,0 +1,41 @@
+defaultPlacement: end
+fieldLayouts:
+  8e6bcaa2-e73c-46af-8c12-0d6ad2fd3158:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: nieuwsCategorie
+name: 'nieuws categorie'
+siteSettings:
+  441e2933-8c39-45ba-92a6-dd88c87ea746: # www.mycraftproject.dev
+    hasUrls: true
+    template: null
+    uriFormat: 'nieuws-categorie/{slug}'
+structure:
+  maxLevels: null
+  uid: 749bbe39-fe48-4c7b-9b3a-05d332b28154

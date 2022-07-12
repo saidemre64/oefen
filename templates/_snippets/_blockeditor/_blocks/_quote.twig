@@ -1,0 +1,11 @@
+<div class="w-full flex justify-center">
+    <div class=" w-3/5">
+        <div>
+            {{ block.quote }}
+
+        </div>
+        {% if block.author|length %}
+            {{ block.author }}
+        {% endif %}
+    </div>
+</div>

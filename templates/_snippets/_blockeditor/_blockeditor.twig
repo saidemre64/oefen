@@ -1,0 +1,12 @@
+{% set blockEditor = entry.blockeditor.all() %}
+
+{% for block in blockEditor %}
+    {% if block.status == 'enabled' %}
+    <div class="container">
+        <div class="p-6">
+           {% include '_snippets/_blockeditor/_blocks/_' ~ block.type.handle %}
+        </div>
+    </div>
+    {% endif %}
+    
+{% endfor %}

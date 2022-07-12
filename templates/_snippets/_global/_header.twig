@@ -1,0 +1,22 @@
+{% set mainNav = craft.navigate.raw('mainNav') %}
+<header>
+	<div class="w-full">
+		<div class="container">
+			<div class="flex items-center justify-between">
+				<a href="{{ siteUrl }}">
+					{{ svg('@webroot/img/logo.svg')|attr({ class:'w-full max-w-logo' }) }}
+				</a>
+
+                <ul class="flex flex-wrap">
+
+                    {% for node in mainNav %}
+                        <li class="mx-4">
+                            <a href="{{ node.url }}" class="font-bold text-xl hover:underline">{{node.name}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+			</div>
+		</div>
+	</div>
+</header>

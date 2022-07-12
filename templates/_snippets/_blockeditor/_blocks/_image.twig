@@ -1,0 +1,8 @@
+<div class="flex flex-wrap">
+    {% set images = block.image.all() %}
+    {% for image in images %}
+        <div class="w-full flex justify-center px-4">
+        <img src="{{ image.getUrl() }}" alt="">
+        </div>
+    {% endfor %}
+</div>

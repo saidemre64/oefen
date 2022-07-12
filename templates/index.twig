@@ -1,0 +1,26 @@
+{% extends "_layout.twig" %}
+
+
+
+{% block content %}
+
+	{% set nieuws = craft.entries.section('nieuws').all() %}
+<div class="container">
+		<h1 class="font-bold">{{ entry.title }}</h1>
+		<h2>{{ entry.intro }}</h2>
+
+	{{contactinfo.straatNr}}
+
+	<div class="w-full flex flex-wrap">
+		{% for element in nieuws %}
+			{% include '_snippets/_items/_card.twig' %}
+		{% endfor %}
+	</div>	
+</div>
+
+{{ craft.formie.renderForm("contactform") }}
+
+
+
+
+{% endblock %}

@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  441e2933-8c39-45ba-92a6-dd88c87ea746: # www.mycraftproject.dev
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+type: single

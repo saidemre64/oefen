@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  441e2933-8c39-45ba-92a6-dd88c87ea746: # www.mycraftproject.dev
+    enabledByDefault: true
+    hasUrls: true
+    template: _page.twig
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 0273408f-c2ee-45f4-a74c-6558a381c851
+type: structure

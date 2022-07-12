@@ -1,0 +1,19 @@
+columnSuffix: mxmyxkhb
+contentColumnType: text
+fieldGroup: 8259cd47-63d7-416a-b932-312bd5702bef # Common
+handle: itemId
+instructions: ''
+name: 'Item id'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

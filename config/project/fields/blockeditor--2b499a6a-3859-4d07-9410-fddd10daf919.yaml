@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 8259cd47-63d7-416a-b932-312bd5702bef # Common
+handle: blockeditor
+instructions: ''
+name: Blockeditor
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_blockeditor}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

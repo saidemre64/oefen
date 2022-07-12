@@ -1,0 +1,14 @@
+{% extends '_layout.twig' %}
+
+{% block content %}
+<h1> DIT IS PAGE.TWIG</h1>
+<div class="container">
+    <h1>{{ entry.title }}</h1>
+    {% if entry.intro|length %}
+    <div class="w-3/5">{{ entry.intro }}</div>
+    {% endif %}
+
+    {% include "_snippets/_blockeditor/_blockeditor.twig" %}
+
+</div>
+{% endblock %}

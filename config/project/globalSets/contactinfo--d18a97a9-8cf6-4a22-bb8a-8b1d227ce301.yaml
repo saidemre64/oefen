@@ -1,0 +1,46 @@
+fieldLayouts:
+  751f4c2f-e743-4e1d-b7e7-65bf46a423be:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 694016bc-1d1e-44bd-9447-194c62f956de # naam organisatie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 56b29620-0c41-4bb6-8079-98f63d75c4d1 # straat + nr
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f48a08fe-d33c-48de-a630-418f7d208267 # email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 528e82be-12ca-4bf0-bbcc-0d5ef2b16da0 # Telefoon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: contact
+        sortOrder: 1
+handle: contactinfo
+name: Contactinfo
+sortOrder: 1

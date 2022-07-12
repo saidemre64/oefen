@@ -1,0 +1,90 @@
+dateModified: 1654881909
+email:
+  fromEmail: said.burgucu@student.pxl.be
+  fromName: www.mycraftproject.dev
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    encryptionMethod: none
+    host: 127.0.0.1
+    password: ''
+    port: '1025'
+    timeout: '10'
+    useAuthentication: '0'
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
+meta:
+  __names__:
+    0e39ea83-4d3a-42d9-a98b-32961b3d2eb2: Default # Default
+    2b499a6a-3859-4d07-9410-fddd10daf919: Blockeditor # Blockeditor
+    02ce18ac-2830-4d86-b7d5-539fd91b2f8e: Nieuwscategorie # Nieuwscategorie
+    2e5d96b6-094b-45b2-8f04-e19e641dc60e: Quote # Quote
+    5d31c4e9-e99a-468f-87e6-07ac358b5c9b: formulier # formulier
+    6c40fa1e-a095-453f-84eb-891542525c57: Homepage # Homepage
+    7c0d68e2-8cf9-4d82-b1cb-be869d93217b: 'Item id' # Item id
+    9a215185-40cc-4c62-bce8-38fd3096415d: copyright # copyright
+    56b29620-0c41-4bb6-8079-98f63d75c4d1: 'straat + nr' # straat + nr
+    59bdc6f7-0540-4ece-b1de-d77927becc26: naam # naam
+    60b18f03-a15e-4f95-ba65-7e3efe85106b: nieuwsoverzicht # nieuwsoverzicht
+    072c307d-4b6c-445a-906c-460c42001c1f: nieuwsoverzicht # nieuwsoverzicht
+    85d9d581-74cc-42c4-86e3-059798053251: form # form
+    91f0bb29-66bb-458d-8a52-120f193bbb89: Homepage # Homepage
+    441e2933-8c39-45ba-92a6-dd88c87ea746: www.mycraftproject.dev # www.mycraftproject.dev
+    528e82be-12ca-4bf0-bbcc-0d5ef2b16da0: Telefoon # Telefoon
+    540fc167-091b-4d22-b6ce-25904f249e4f: 'Contact Form' # Contact Form
+    6468a0f6-2f2a-461e-9dbc-d9f321155885: Default # Default
+    6971aa77-b891-4b45-8cd1-7d613b8ad645: pages # pages
+    8259cd47-63d7-416a-b932-312bd5702bef: Common # Common
+    694016bc-1d1e-44bd-9447-194c62f956de: 'naam organisatie' # naam organisatie
+    838438a9-d35e-4c97-ad34-3a148145d363: datum # datum
+    a029f599-0f16-4927-96f4-d348db112507: New # New
+    a5bd9cdb-484d-4964-b1b9-ba06719d8d77: Auteur # Auteur
+    a6c29ad1-8f11-404a-bf38-c5884e8ada09: intro # intro
+    add839a5-5bcb-4b1e-9fc0-a2571a29ad27: Quote # Quote
+    b8d09f30-1538-4217-b171-cea031f3bd17: www.mycraftproject.dev # www.mycraftproject.dev
+    d003a518-44ce-44cd-8d0e-bc52cf23047d: 'Public Schema' # Public Schema
+    d18a97a9-8cf6-4a22-bb8a-8b1d227ce301: Contactinfo # Contactinfo
+    d759780a-88f4-4c31-8597-a30b5cc416cb: afbeelding # afbeelding
+    e5a5758d-b384-44fe-a4e6-e14e969e87ee: 'nieuws categorie' # nieuws categorie
+    ebb43866-d620-4248-ab89-20362091b08d: Items # Items
+    eec405d4-0eef-4758-85bf-6aaed1e063c9: Default # Default
+    f2bf240f-8ac9-4260-98ed-d767faa336bf: Image # Image
+    f31e35f6-dcfc-4d74-a4ab-ed52e17c66c1: files # files
+    f48a08fe-d33c-48de-a630-418f7d208267: email # email
+    fdeee301-225a-438f-a442-36197cbcd9e4: nieuws # nieuws
+plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: U56G5BCQMN1JMFK3JY1MMQ33
+    schemaVersion: 1.2.8
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: 8CJUW2BA4UDS398PQW2084X8
+    schemaVersion: 2.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: 'Craft project'
+  retryDuration: null
+  schemaVersion: 3.7.33
+  timeZone: Europe/Amsterdam
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,43 @@
+{% set mainNav = craft.navigate.raw('mainNav') %}
+<footer>
+	<div class="py-8 ">
+		<div class="container">
+			<div class="flex flex-wrap -mx-4">
+				<div class="flex w-full px-4 mt-4">
+					<div class="w-1/3">
+                        {{ svg('@webroot/img/logo.svg')|attr({ class:'w-full max-w-logo' }) }} <br>
+                        <h1 class="font-bold">{{ contactinfo.naamOrganisatie }}</h1> <br>
+                        {{ contactinfo.straatNr }} <br>
+                        {{ contactinfo.email }} <br>
+                        {{ contactinfo.telefoon }} <br>
+
+					</div>
+					<div class="flex w-1/3">
+                        <ul>
+                        {% for node in mainNav %}
+                        <li class="mx-4">
+                            <a href="{{ node.url }}" class="font-bold text-xl hover:underline">{{node.name}}</a>
+                        </li>
+                         <br>
+                    {% endfor %}
+                </ul>
+                    </div>
+					<div class="flex w-1/3">
+                        COL3
+                    </div>
+				</div>
+			</div>
+		</div>
+        <div class="py-6">
+            <div class="container">
+                <div class="flex flex-wrap justify-between text-center">
+                    {{ copyright.datum|date('yy') }} 
+                    {{ copyright.naam }}
+                     
+                </div>
+            </div>
+        </div>
+	</div>
+</footer>
+
+

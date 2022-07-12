@@ -1,0 +1,29 @@
+{% extends "_layout.twig" %}
+
+{% set news = craft.entries.section('nieuws').all() %}
+{% set newsCats = craft.categories.group('nieuwsCategorie').all() %}
+
+{% block content %}
+    <div class="container">
+        <div class="flex py-6">
+            <div id="all" class="mx-2 p-4 rounded-full font-bold border-2 hover:bg-blue-200 js-filter">{{ "Toon alles" }}</div>
+            {% for cat in newsCats %}
+                <div id="{{ cat.id }}" class="mx-2 p-4 rounded-full font-bold border-2 hover:bg-blue-200 js-filter">{{ cat.title }}</div>
+            {% endfor %}
+        </div>
+    </div>
+	<div class="container">
+		<h1>{{ entry.title }}</h1>
+		<p>
+			{{entry.intro}}</p>
+		<div>
+			{% for element in news %}
+				{% include '_snippets/_items/_card.twig' with {
+                    classes: 'js-filter-item',
+                    elementIds: element.nieuwscategorie.ids|join(", ")
+                } %}
+			{% endfor %}
+		</div>
+	</div>
+
+{% endblock %}

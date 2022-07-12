@@ -1,0 +1,55 @@
+field: 2b499a6a-3859-4d07-9410-fddd10daf919 # Blockeditor
+fieldLayouts:
+  224e3e4b-cb1a-4fc3-8179-dcc11986677e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d759780a-88f4-4c31-8597-a30b5cc416cb # afbeelding
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  d759780a-88f4-4c31-8597-a30b5cc416cb: # afbeelding
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: afbeelding
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowUploads: false
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f31e35f6-dcfc-4d74-a4ab-ed52e17c66c1' # files
+      defaultUploadLocationSubpath: ''
+      limit: '3'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f31e35f6-dcfc-4d74-a4ab-ed52e17c66c1' # files
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 1
